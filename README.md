@@ -6,4 +6,5 @@
 git clone repo
 cd repo
 yarn install
+yarn dev
 ```
