@@ -29,16 +29,19 @@ export default function ButtonAppBar() {
 		<div>
 			<AppBar position="static">
 				<Toolbar>
-				<IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+				{/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
 					<MenuIcon />
-				</IconButton>
+				</IconButton> */}
 				<Typography variant="h6" className={classes.title}>
 					deeplab
 				</Typography>
 				{/* <Button color="inherit" onClick={()=> this.handlePageMove('/about')}>About Us</Button>
 				<Button color="inherit" onClick={()=> this.handlePageMove('/news')}>News</Button>
 				<Button color="inherit" onClick={()=> this.handlePageMove('/contact')}>Contact</Button> */}
-				<Button color="inherit"><Link to='/about'>About Us</Link></Button>
+				<Button color="inherit"><Link to='/members'>Members</Link></Button>
+				<Button color="inherit"><Link to='/dlbook'>DL core</Link></Button>
+				<Button color="inherit"><Link to='/implementtation'>Implementation</Link></Button>
+				<Button color="inherit"><Link to='/information'>Information</Link></Button>
 				<Button color="inherit"><Link to='/news'>News</Link></Button>
 				<Button color="inherit"><Link to='/contact'>Contact</Link></Button>
 				</Toolbar>
